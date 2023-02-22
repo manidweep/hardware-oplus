@@ -101,6 +101,11 @@
     <string name="colorspace_cinematic">Cinematic</string>
     <string name="colorspace_brilliant">Brilliant</string>
 
+    <!-- Dolby -->
+    <string name="dolby_category">Dolby</string>
+    <string name="dolby_title">Dolby Atmos</string>
+    <string name="dolby_summary">Configure the audio output based on media content</string>
+
     <!-- CPU -->
     <string name="cpu_title">CPU</string>
     <string name="power_efficient_workqueue_title">Power efficient workqueue</string>
