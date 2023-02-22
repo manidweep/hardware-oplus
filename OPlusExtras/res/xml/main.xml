@@ -57,6 +57,23 @@
             android:summary="@string/touchboost_summary" />
     </PreferenceCategory>
 
+    <!-- Dolby category -->
+    <PreferenceCategory
+        android:key="dolby"
+        android:title="@string/dolby_category">
+
+       <Preference
+            android:key="audio_dolby_atmos"
+            android:icon="@drawable/ic_dolby"
+            android:title="@string/dolby_title"
+            android:summary="@string/dolby_summary"
+            android:persistent="false">
+            <intent
+                 android:targetPackage="com.dolby.daxappui"
+                 android:targetClass="com.dolby.daxappui.MainActivity" />
+        </Preference>
+    </PreferenceCategory>
+
     <!-- Start of display Category -->
     <PreferenceCategory
         android:key="display"
